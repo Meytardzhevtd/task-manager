@@ -27,3 +27,7 @@ func ValidatePassword(password string) error {
 	}
 	return nil
 }
+
+func (u User) New() *User {
+	return nil
+}
